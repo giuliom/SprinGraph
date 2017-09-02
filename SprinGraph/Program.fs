@@ -202,7 +202,7 @@ type Container() as x =
     let buttons = new ResizeArray<Lightweight>()
     let arcs = new ResizeArray<Arc>()
 
-    let mutable imgpath = "C:\Users\Giulio\Desktop\climtea.jpg"
+    let mutable imgpath = "..\..\Assets\icon.jpg"
     let mutable lastmousepos = new PointF(0.f,0.f)
     let r = new System.Random()
     let mutable selectednode = -1
